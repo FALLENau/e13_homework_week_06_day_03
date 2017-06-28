@@ -8,13 +8,18 @@ public class DriverTest {
   DodgemCar dodgemCar;
 
   @Before
-  public void before(){
+  public void before() {
     dodgemCar = new DodgemCar("Crash Bandicoot", 10);
     driver = new Driver("Rod", dodgemCar);
   }
 
   @Test
-  public void hasName(){
+  public void hasName() {
     assertEquals("Rod", driver.getName());
   }
+
+  // @Test
+  // public void getRide() {
+  //   assertEquals()
+  // }
 }

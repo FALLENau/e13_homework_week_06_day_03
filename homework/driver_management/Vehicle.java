@@ -1,4 +1,5 @@
 package driver_management;
+//Superclass
 
 public abstract class Vehicle{
 
