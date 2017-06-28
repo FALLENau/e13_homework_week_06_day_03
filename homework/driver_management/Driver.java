@@ -18,12 +18,12 @@ public class Driver {
     return this.drive;
   }
 
-  public void setRide(Flyable drive){
+  public void setRide(Driveable drive){
     this.drive = drive;
   }
 
-  public String distanceDrived(){
-    return this.drive.distanceDrived();
-  }
+  // public String driveDistance(){
+  //   return this.drive.driveDistance();
+  // }
 
 }
