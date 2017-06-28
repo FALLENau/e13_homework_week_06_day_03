@@ -1,6 +1,7 @@
 package wizard_management;
+import behaviours.*;
 
-public class Broomstick extends CleaningImplement {
+public class Broomstick extends CleaningImplement implements Flyable {
 
   int speed;
 

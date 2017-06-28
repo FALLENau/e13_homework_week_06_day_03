@@ -1,6 +1,7 @@
 package wizard_management;
+import behaviours.*;
 
-public class MagicCarpet extends Carpet {
+public class MagicCarpet extends Carpet implements Flyable {
 
   public MagicCarpet(String colour){
     super(colour);

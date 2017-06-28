@@ -1,6 +1,7 @@
 package wizard_management;
+import behaviours.*;
 
-public class Dragon extends MythicalBeast {
+public class Dragon extends MythicalBeast implements Flyable {
 
   public Dragon(String name){
     super(name);

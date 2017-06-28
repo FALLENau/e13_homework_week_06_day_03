@@ -1,24 +1,25 @@
 package wizard_management;
+import behaviours.*;
 
 public class Wizard {
   String name;
-  Broomstick broomstick;
+  private Flyable ride;
 
-  public Wizard(String name, Broomstick broomstick){
+  public Wizard(String name, Flyable ride){
     this.name = name;
-    this.broomstick = broomstick;
+    this.ride = ride;
   }
 
   public String getName(){
     return this.name;
   }
 
-  public Broomstick getBroomstick(){
-    return this.broomstick;
+  public Flyable getRide(){
+    return this.ride;
   }
 
   public String fly(){
-    return this.broomstick.fly();
+    return this.ride.fly();
   }
 
 }
