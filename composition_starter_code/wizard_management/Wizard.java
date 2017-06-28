@@ -18,6 +18,10 @@ public class Wizard {
     return this.ride;
   }
 
+  public void setRide(Flyable ride){
+    this.ride = ride;
+  }
+
   public String fly(){
     return this.ride.fly();
   }

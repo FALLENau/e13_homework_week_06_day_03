@@ -50,5 +50,12 @@ public class WizardTest {
     assertEquals("Hovering up, straightening out, stalling, stalling hard, fall flat on face!", wizard.fly());
   }
 
+  @Test
+  public void canSetRide(){
+    Dragon dragon = new Dragon("Erik");
+    wizard.setRide(dragon);
+    assertEquals("Standing up tall, beating wings, lift off!", wizard.fly());
+  }
+
 
 }
