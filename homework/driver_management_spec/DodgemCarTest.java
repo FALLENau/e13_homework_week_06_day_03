@@ -15,8 +15,8 @@ public class DodgemCarTest {
 public void vehicleHasType() {
   assertEquals("Crash Bandicoot dodgemcar", dodgemCar.getName());
   }
-  // @Test
-  // public void hasBrand(){
-  //   assertEquals("Nimbus", broom.getBrand());
-  // }
+
+  public String driveVehicle(){
+    return "Vroom, smash, Vroom Vroom, smash";
+  }
 }

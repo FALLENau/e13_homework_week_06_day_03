@@ -22,8 +22,8 @@ public class Driver {
     this.drive = drive;
   }
 
-  // public String driveDistance(){
-  //   return this.drive.driveDistance();
-  // }
+  public String driveVehicle(){
+    return this.drive.driveVehicle();
+  }
 
 }

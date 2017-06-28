@@ -3,5 +3,5 @@ package behaviours;
 
 public interface Driveable {
   // int driveDistance(int driveDistance);
-  String DriveVehicle();
+  String driveVehicle();
 }

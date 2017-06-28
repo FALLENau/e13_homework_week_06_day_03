@@ -18,8 +18,8 @@ public class DriverTest {
     assertEquals("Rod", driver.getName());
   }
 
-  // @Test
-  // public void getRide() {
-  //   assertEquals()
-  // }
+  @Test
+  public void canDriveVehicle(){
+    assertEquals("Vroom, smash, Vroom Vroom, smash", driver.driveVehicle());
+  }
 }

@@ -14,7 +14,7 @@ public class DodgemCar extends Vehicle implements Driveable {
     return this.speed;
   }
 
-  public String DriveVehicle() {
-    return "Turning the key Vroom, put the foot down, VROOOOOM!";
+  public String driveVehicle() {
+    return "Vroom, smash, Vroom Vroom, smash";
   }
 }
