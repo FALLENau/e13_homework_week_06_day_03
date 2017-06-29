@@ -22,4 +22,10 @@ public class DriverTest {
   public void canDriveVehicle(){
     assertEquals("Vroom, smash, Vroom Vroom, smash", driver.driveVehicle());
   }
+
+  @Test
+  public void vehicleTakesTime() {
+
+    assertEquals(120, dodgemCar.driveDistance(20));
+  }
 }

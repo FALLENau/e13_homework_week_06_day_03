@@ -14,6 +14,11 @@ public class DodgemCar extends Vehicle implements Driveable {
     return this.speed;
   }
 
+  public int driveDistance(int distance) {
+    int time = distance/this.speed*60;
+    return time;
+}
+
   public String driveVehicle() {
     return "Vroom, smash, Vroom Vroom, smash";
   }
