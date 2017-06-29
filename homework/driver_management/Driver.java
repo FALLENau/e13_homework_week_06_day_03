@@ -3,11 +3,11 @@ import behaviours.*;
 
 public class Driver {
   String name;
-  private Driveable drive;
+  private Driveable vehicle;
 
-  public Driver(String name, Driveable drive){
+  public Driver(String name, Driveable vehicle){
     this.name = name;
-    this.drive = drive;
+    this.vehicle = vehicle;
   }
 
   public String getName(){
@@ -15,15 +15,19 @@ public class Driver {
   }
 
   public Driveable getRide(){
-    return this.drive;
+    return this.vehicle;
   }
 
-  public void setRide(Driveable drive){
-    this.drive = drive;
+  public void setRide(Driveable vehicle){
+    this.vehicle = vehicle;
   }
 
   public String driveVehicle(){
-    return this.drive.driveVehicle();
+    return this.vehicle.driveVehicle();
+  }
+
+  public int driveDistance(int distance) {
+    return this.vehicle.driveDistance(distance);
   }
 
 }

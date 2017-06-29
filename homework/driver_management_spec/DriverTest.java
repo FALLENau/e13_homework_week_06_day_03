@@ -25,7 +25,12 @@ public class DriverTest {
 
   @Test
   public void vehicleTakesTime() {
-
     assertEquals(120, dodgemCar.driveDistance(20));
   }
+
+  @Test
+  public void driveHasVehicleDriveDistance() {
+      assertEquals(120, driver.driveDistance(20));
+  }
+
 }
