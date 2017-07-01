@@ -6,7 +6,7 @@ def filter_directories
 
   all_files = Dir.glob('*')
 
-  return all_files.select do |file| 
+  return all_files.select do |file|
     next if excluded_directories.include?(file)
     File.directory?(file)
   end
@@ -29,4 +29,3 @@ create_bin()
 valid_directories = filter_directories()
 
 run_tests(valid_directories)
-
